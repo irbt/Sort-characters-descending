@@ -11,11 +11,11 @@ namespace Program
                 int len = s.Length;
                 char [] tab = new char [len];
                 tab= s.ToCharArray();
-                Array.Sort(tab);
+                Array.Sort()
                 Array.Reverse(tab);
                 for (int i = 0; i < len; i++)
                 {                    
-                Console.Write(tab[i]);
+                Console.Write(tab[i]);y
                 }
                 Console.WriteLine();
             }
